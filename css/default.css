@@ -90,7 +90,9 @@ header nav a:hover {
     margin: auto;
 } */
 
-.form-contact input, .form-contact
+.form-contact input[type='text'],
+.form-contact input[type='tel'],
+.form-contact input[type='email'],
 .form-contact textarea{
     width: 100%;
     padding: 5px;
